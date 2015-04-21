@@ -1,0 +1,22 @@
+{
+  "name": "processconfig",
+  "version": "0.0.1",
+  "description": "Wrapper for process.config",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:plasticpanda/processconfig"
+  },
+  "author": "Simone Lusenti <simone@plasticpanda.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plasticpanda/processconfig/issues"
+  },
+  "homepage": "https://github.com/plasticpanda/processconfig",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
