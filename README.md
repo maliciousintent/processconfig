@@ -1,5 +1,5 @@
 # processconfig
-Wrapper for process.config which trows if a variable is not set or empty.
+Wrapper for process.config which throws if a property is not set or empty.
 
 [![Build Status](https://travis-ci.org/plasticpanda/processconfig.svg?branch=master)](https://travis-ci.org/plasticpanda/processconfig) 
 [![Dependencies](https://david-dm.org/plasticpanda/processconfig.svg)](https://david-dm.org/plasticpanda/processconfig) 
