@@ -22,6 +22,11 @@ config.read({
 console.log(config('foo')); // > bar1
 console.log(config('foooo')); // > throws because foooo is not set
 console.log(config('illegal')); // > throws because illegal is empty
+
+console.log(config.weak('foo')); // > bar1
+console.log(config.weak('foooo')); // > undefined
+console.log(config.weak('illegal')); // > ""
+
 ```
 
 
